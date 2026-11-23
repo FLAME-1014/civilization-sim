@@ -1,0 +1,4631 @@
+{
+  "generatedAt": "2026-11-21T09:16:59.058Z",
+  "deterministicSeed": 2026,
+  "scenarioYears": 100,
+  "interpretation": "合成模拟指标，用于比较同模型内的相对变化；不代表现实预测。",
+  "results": [
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 536605.77,
+        "gdpPercent": 51.4,
+        "population": 14316.5,
+        "populationPercent": 26.5,
+        "environment": 0.949,
+        "environmentChange": 19.5,
+        "happiness": 84.4,
+        "employment": 76.9,
+        "prices": {
+          "food": 93.45,
+          "water": 54.1,
+          "energy": 115.99,
+          "materials": 103.01
+        },
+        "resourceShortages": {
+          "food": 2.9,
+          "water": 10.9,
+          "energy": 0.7,
+          "materials": 21.7
+        },
+        "tradeValue": 116884.06,
+        "tradeVolume": 1237.11,
+        "migrationRedistribution": 2997.51,
+        "growingCities": 12,
+        "sectorSpecialization": 0.492,
+        "leastHappyCity": "金屿",
+        "leastHappiness": 78.6,
+        "mineralReserves": 1101.01,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1063.18,
+            "gdp": 37034.28,
+            "gdpPercent": 4.1,
+            "happiness": 82.3,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 12.8,
+            "waterShortage": 3
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1548.87,
+            "gdp": 59873.51,
+            "gdpPercent": 27.8,
+            "happiness": 87.2,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 0.6,
+            "waterShortage": 23.7
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 816.62,
+            "gdp": 32686.1,
+            "gdpPercent": 111.5,
+            "happiness": 88.9,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 907.46,
+            "gdp": 39620.11,
+            "gdpPercent": 135.2,
+            "happiness": 88.3,
+            "environment": 0.948,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 822.84,
+            "gdp": 31581.01,
+            "gdpPercent": 41.8,
+            "happiness": 87.8,
+            "environment": 0.982,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 25.7
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 850.06,
+            "gdp": 26450.03,
+            "gdpPercent": 4,
+            "happiness": 78.6,
+            "environment": 0.885,
+            "migration": 0,
+            "foodShortage": 18.2,
+            "waterShortage": 23
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 753.42,
+            "gdp": 36925.46,
+            "gdpPercent": 54.7,
+            "happiness": 87.9,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1875.81,
+            "gdp": 61780.29,
+            "gdpPercent": 54.2,
+            "happiness": 88.2,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1800.67,
+            "gdp": 62521.54,
+            "gdpPercent": 48.9,
+            "happiness": 84.8,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1384.76,
+            "gdp": 55329.53,
+            "gdpPercent": 29.6,
+            "happiness": 80.1,
+            "environment": 0.962,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 27
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1455.9,
+            "gdp": 57475.29,
+            "gdpPercent": 58.9,
+            "happiness": 79.4,
+            "environment": 0.787,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1036.92,
+            "gdp": 35328.62,
+            "gdpPercent": 48.1,
+            "happiness": 79.7,
+            "environment": 0.889,
+            "migration": 0,
+            "foodShortage": 3.5,
+            "waterShortage": 28
+          }
+        ]
+      },
+      "eventCount": 21,
+      "recentEvents": [
+        {
+          "id": 20,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 18,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 14,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 13,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 12,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 10,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 9,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "energy",
+      "scenarioName": "能源危机",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 504893.74,
+        "gdpPercent": 42.5,
+        "population": 14248.8,
+        "populationPercent": 25.9,
+        "environment": 0.964,
+        "environmentChange": 21,
+        "happiness": 82.3,
+        "employment": 73.4,
+        "prices": {
+          "food": 102.84,
+          "water": 50.17,
+          "energy": 111.47,
+          "materials": 103.92
+        },
+        "resourceShortages": {
+          "food": 6.1,
+          "water": 12.5,
+          "energy": 2,
+          "materials": 19
+        },
+        "tradeValue": 104557.75,
+        "tradeVolume": 1049.96,
+        "migrationRedistribution": 2929.78,
+        "growingCities": 12,
+        "sectorSpecialization": 0.493,
+        "leastHappyCity": "曙城",
+        "leastHappiness": 69.4,
+        "mineralReserves": 1100.12,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1035.96,
+            "gdp": 35898.35,
+            "gdpPercent": 3.2,
+            "happiness": 81.2,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 10.4,
+            "waterShortage": 2.9
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1432.21,
+            "gdp": 50743.78,
+            "gdpPercent": 14.7,
+            "happiness": 85.2,
+            "environment": 0.99,
+            "migration": -0.3,
+            "foodShortage": 9.5,
+            "waterShortage": 23.7
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 834.86,
+            "gdp": 33068.07,
+            "gdpPercent": 120.7,
+            "happiness": 87.3,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 884.41,
+            "gdp": 37696.19,
+            "gdpPercent": 122.3,
+            "happiness": 86.5,
+            "environment": 0.946,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 803.24,
+            "gdp": 26883.44,
+            "gdpPercent": 19.7,
+            "happiness": 83.6,
+            "environment": 0.946,
+            "migration": 0.3,
+            "foodShortage": 7,
+            "waterShortage": 25.6
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 820.11,
+            "gdp": 26513.49,
+            "gdpPercent": 5.7,
+            "happiness": 76.6,
+            "environment": 0.865,
+            "migration": -0.1,
+            "foodShortage": 20.7,
+            "waterShortage": 23
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 742.97,
+            "gdp": 33551.86,
+            "gdpPercent": 40.2,
+            "happiness": 83.6,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 18.7
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1809.22,
+            "gdp": 59905.31,
+            "gdpPercent": 57.8,
+            "happiness": 86.1,
+            "environment": 0.99,
+            "migration": -0.8,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1742.76,
+            "gdp": 64460.27,
+            "gdpPercent": 55.9,
+            "happiness": 86.2,
+            "environment": 0.99,
+            "migration": -0.7,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1714.34,
+            "gdp": 45235.48,
+            "gdpPercent": 13.1,
+            "happiness": 69.4,
+            "environment": 0.986,
+            "migration": 3.2,
+            "foodShortage": 18.9,
+            "waterShortage": 27.7
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1416.67,
+            "gdp": 57823.56,
+            "gdpPercent": 66.1,
+            "happiness": 85.4,
+            "environment": 0.99,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1012.03,
+            "gdp": 33113.93,
+            "gdpPercent": 37.9,
+            "happiness": 78,
+            "environment": 0.895,
+            "migration": -0.1,
+            "foodShortage": 6.7,
+            "waterShortage": 28
+          }
+        ]
+      },
+      "eventCount": 21,
+      "recentEvents": [
+        {
+          "id": 20,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 18,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 14,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 13,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 12,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 10,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 9,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "migration",
+      "scenarioName": "迁徙潮",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 536285.82,
+        "gdpPercent": 51.3,
+        "population": 14409.7,
+        "populationPercent": 27.3,
+        "environment": 0.952,
+        "environmentChange": 19.8,
+        "happiness": 83.6,
+        "employment": 76.9,
+        "prices": {
+          "food": 98.9,
+          "water": 58.44,
+          "energy": 112.95,
+          "materials": 105.36
+        },
+        "resourceShortages": {
+          "food": 4.1,
+          "water": 12.5,
+          "energy": 1.9,
+          "materials": 19.2
+        },
+        "tradeValue": 109985.07,
+        "tradeVolume": 1123.03,
+        "migrationRedistribution": 3094.49,
+        "growingCities": 12,
+        "sectorSpecialization": 0.491,
+        "leastHappyCity": "曙城",
+        "leastHappiness": 72.2,
+        "mineralReserves": 1103.65,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1024.64,
+            "gdp": 38191.74,
+            "gdpPercent": 7.3,
+            "happiness": 84.6,
+            "environment": 0.99,
+            "migration": -0.3,
+            "foodShortage": 6.3,
+            "waterShortage": 3
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1454.71,
+            "gdp": 60937.92,
+            "gdpPercent": 30.1,
+            "happiness": 88.8,
+            "environment": 0.99,
+            "migration": -0.9,
+            "foodShortage": 0,
+            "waterShortage": 23.7
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 844.68,
+            "gdp": 32910.54,
+            "gdpPercent": 113.1,
+            "happiness": 88.9,
+            "environment": 0.99,
+            "migration": 0.6,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 890.49,
+            "gdp": 42072.7,
+            "gdpPercent": 149.8,
+            "happiness": 87.6,
+            "environment": 0.955,
+            "migration": 0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 836.04,
+            "gdp": 29744.16,
+            "gdpPercent": 33.5,
+            "happiness": 86.9,
+            "environment": 0.956,
+            "migration": 0.7,
+            "foodShortage": 1.6,
+            "waterShortage": 25.7
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 811.11,
+            "gdp": 26043.18,
+            "gdpPercent": 2.4,
+            "happiness": 77.9,
+            "environment": 0.885,
+            "migration": -0.2,
+            "foodShortage": 17.7,
+            "waterShortage": 23
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 774.45,
+            "gdp": 32728.31,
+            "gdpPercent": 37.1,
+            "happiness": 82.3,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 18.8
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1668.97,
+            "gdp": 73152.66,
+            "gdpPercent": 82.4,
+            "happiness": 89.7,
+            "environment": 0.99,
+            "migration": -1.8,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1611.02,
+            "gdp": 60294.54,
+            "gdpPercent": 43.5,
+            "happiness": 86.1,
+            "environment": 0.99,
+            "migration": -1.7,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 2244.9,
+            "gdp": 45699.22,
+            "gdpPercent": 7.1,
+            "happiness": 72.2,
+            "environment": 0.99,
+            "migration": 7.4,
+            "foodShortage": 23.9,
+            "waterShortage": 27.3
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1266.46,
+            "gdp": 60923.7,
+            "gdpPercent": 68.5,
+            "happiness": 84.6,
+            "environment": 0.81,
+            "migration": -1.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 982.25,
+            "gdp": 33587.14,
+            "gdpPercent": 40.8,
+            "happiness": 80.7,
+            "environment": 0.886,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 28
+          }
+        ]
+      },
+      "eventCount": 21,
+      "recentEvents": [
+        {
+          "id": 20,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 18,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 14,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 13,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 12,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 10,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 9,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "ecological",
+      "scenarioName": "生态治理",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 539028.97,
+        "gdpPercent": 52.1,
+        "population": 14175,
+        "populationPercent": 25.2,
+        "environment": 0.966,
+        "environmentChange": 21.2,
+        "happiness": 84.2,
+        "employment": 77.1,
+        "prices": {
+          "food": 103.74,
+          "water": 49.03,
+          "energy": 109.39,
+          "materials": 101.99
+        },
+        "resourceShortages": {
+          "food": 5.6,
+          "water": 11.3,
+          "energy": 0.3,
+          "materials": 15.6
+        },
+        "tradeValue": 118875,
+        "tradeVolume": 1169.55,
+        "migrationRedistribution": 2856.02,
+        "growingCities": 11,
+        "sectorSpecialization": 0.47,
+        "leastHappyCity": "金屿",
+        "leastHappiness": 77.6,
+        "mineralReserves": 1102.27,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1039.93,
+            "gdp": 34643.84,
+            "gdpPercent": -1.8,
+            "happiness": 78.4,
+            "environment": 0.988,
+            "migration": 0,
+            "foodShortage": 19.7,
+            "waterShortage": 2.7
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1500.54,
+            "gdp": 58638.76,
+            "gdpPercent": 25.4,
+            "happiness": 86,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 3,
+            "waterShortage": 23.7
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 831.9,
+            "gdp": 32814.57,
+            "gdpPercent": 113.6,
+            "happiness": 88.3,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 907.85,
+            "gdp": 39421.87,
+            "gdpPercent": 133.7,
+            "happiness": 89.3,
+            "environment": 0.989,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 796.68,
+            "gdp": 27606.17,
+            "gdpPercent": 22.1,
+            "happiness": 85.4,
+            "environment": 0.943,
+            "migration": 0.2,
+            "foodShortage": 6.8,
+            "waterShortage": 25.5
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 821.41,
+            "gdp": 26107.6,
+            "gdpPercent": 3.7,
+            "happiness": 77.6,
+            "environment": 0.885,
+            "migration": 0,
+            "foodShortage": 20.9,
+            "waterShortage": 23
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 747.29,
+            "gdp": 36437.83,
+            "gdpPercent": 53.9,
+            "happiness": 86.6,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 5.9
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1872.56,
+            "gdp": 60449.04,
+            "gdpPercent": 50,
+            "happiness": 88,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1803.45,
+            "gdp": 65931.45,
+            "gdpPercent": 57.9,
+            "happiness": 85.4,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1356.56,
+            "gdp": 53082.37,
+            "gdpPercent": 24.3,
+            "happiness": 77.7,
+            "environment": 0.957,
+            "migration": -0.1,
+            "foodShortage": 8,
+            "waterShortage": 27
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1468.06,
+            "gdp": 69408.26,
+            "gdpPercent": 92.1,
+            "happiness": 86.2,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1028.78,
+            "gdp": 34487.22,
+            "gdpPercent": 44.1,
+            "happiness": 78.6,
+            "environment": 0.887,
+            "migration": 0,
+            "foodShortage": 8.5,
+            "waterShortage": 28
+          }
+        ]
+      },
+      "eventCount": 21,
+      "recentEvents": [
+        {
+          "id": 20,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 18,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 14,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 13,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 12,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 10,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 9,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "scarcity",
+      "scenarioName": "资源短缺",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 520976.39,
+        "gdpPercent": 47,
+        "population": 14304.2,
+        "populationPercent": 26.4,
+        "environment": 0.948,
+        "environmentChange": 19.4,
+        "happiness": 84,
+        "employment": 76.1,
+        "prices": {
+          "food": 94.68,
+          "water": 51.48,
+          "energy": 113.03,
+          "materials": 103.53
+        },
+        "resourceShortages": {
+          "food": 3.1,
+          "water": 10.9,
+          "energy": 1,
+          "materials": 19.3
+        },
+        "tradeValue": 114900.52,
+        "tradeVolume": 1218.72,
+        "migrationRedistribution": 2985.17,
+        "growingCities": 12,
+        "sectorSpecialization": 0.5,
+        "leastHappyCity": "曙城",
+        "leastHappiness": 76.7,
+        "mineralReserves": 1102.1,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1051.09,
+            "gdp": 35841.12,
+            "gdpPercent": 1.7,
+            "happiness": 81.3,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 10.6,
+            "waterShortage": 2.8
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1504.3,
+            "gdp": 55127.38,
+            "gdpPercent": 20,
+            "happiness": 86.2,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 1.6,
+            "waterShortage": 23.7
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 808.42,
+            "gdp": 31017.55,
+            "gdpPercent": 105,
+            "happiness": 89,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 888.48,
+            "gdp": 40129.41,
+            "gdpPercent": 137.4,
+            "happiness": 84.8,
+            "environment": 0.863,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 807.25,
+            "gdp": 30179.53,
+            "gdpPercent": 35,
+            "happiness": 87.7,
+            "environment": 0.965,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 25.6
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 839.92,
+            "gdp": 26873.79,
+            "gdpPercent": 7.1,
+            "happiness": 78.7,
+            "environment": 0.881,
+            "migration": -0.1,
+            "foodShortage": 15.7,
+            "waterShortage": 23
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 744.12,
+            "gdp": 37767.61,
+            "gdpPercent": 56.2,
+            "happiness": 88.4,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1858,
+            "gdp": 60349.45,
+            "gdpPercent": 51.4,
+            "happiness": 87.9,
+            "environment": 0.99,
+            "migration": -0.4,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1783.54,
+            "gdp": 64644.19,
+            "gdpPercent": 56,
+            "happiness": 84.8,
+            "environment": 0.99,
+            "migration": -0.4,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1546.25,
+            "gdp": 51520.71,
+            "gdpPercent": 23.2,
+            "happiness": 76.7,
+            "environment": 0.963,
+            "migration": 1.6,
+            "foodShortage": 9.6,
+            "waterShortage": 27.2
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1445.19,
+            "gdp": 52689.7,
+            "gdpPercent": 47.9,
+            "happiness": 82.9,
+            "environment": 0.871,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1027.61,
+            "gdp": 34835.94,
+            "gdpPercent": 46.4,
+            "happiness": 80.6,
+            "environment": 0.897,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 28
+          }
+        ]
+      },
+      "eventCount": 21,
+      "recentEvents": [
+        {
+          "id": 20,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 18,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 14,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 13,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 12,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 10,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 9,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "extreme",
+      "scenarioName": "极端环境",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.554,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 421664.13,
+        "gdpPercent": 19,
+        "population": 11349.2,
+        "populationPercent": 0.3,
+        "environment": 0.753,
+        "environmentChange": 19.9,
+        "happiness": 73.4,
+        "employment": 71.9,
+        "prices": {
+          "food": 110.13,
+          "water": 99.65,
+          "energy": 76.53,
+          "materials": 107.81
+        },
+        "resourceShortages": {
+          "food": 20.7,
+          "water": 31.7,
+          "energy": 0,
+          "materials": 22.1
+        },
+        "tradeValue": 90791.19,
+        "tradeVolume": 866.24,
+        "migrationRedistribution": 3133.7,
+        "growingCities": 6,
+        "sectorSpecialization": 0.574,
+        "leastHappyCity": "新铸",
+        "leastHappiness": 55.3,
+        "mineralReserves": 1102.79,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 736.03,
+            "gdp": 24584.69,
+            "gdpPercent": -27.2,
+            "happiness": 57.6,
+            "environment": 0.545,
+            "migration": -0.1,
+            "foodShortage": 26.9,
+            "waterShortage": 34.9
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1016.76,
+            "gdp": 32513.53,
+            "gdpPercent": -24.2,
+            "happiness": 68.1,
+            "environment": 0.796,
+            "migration": -0.1,
+            "foodShortage": 33.9,
+            "waterShortage": 52.7
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 773.57,
+            "gdp": 33436.98,
+            "gdpPercent": 111,
+            "happiness": 83,
+            "environment": 0.988,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 44.7
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 868.45,
+            "gdp": 40933.34,
+            "gdpPercent": 140.1,
+            "happiness": 82.2,
+            "environment": 0.798,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 22.5
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 348.52,
+            "gdp": 12312.14,
+            "gdpPercent": -40.2,
+            "happiness": 55.3,
+            "environment": 0.507,
+            "migration": 0,
+            "foodShortage": 61.9,
+            "waterShortage": 0
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 457.64,
+            "gdp": 14661.02,
+            "gdpPercent": -38,
+            "happiness": 59.1,
+            "environment": 0.853,
+            "migration": 0,
+            "foodShortage": 29.8,
+            "waterShortage": 52.1
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 422.05,
+            "gdp": 16544.26,
+            "gdpPercent": -24.7,
+            "happiness": 59.9,
+            "environment": 0.499,
+            "migration": 0,
+            "foodShortage": 27.3,
+            "waterShortage": 49.6
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1753.66,
+            "gdp": 58074.33,
+            "gdpPercent": 44.8,
+            "happiness": 79.4,
+            "environment": 0.947,
+            "migration": -0.2,
+            "foodShortage": 15.3,
+            "waterShortage": 19
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1785.43,
+            "gdp": 68541.67,
+            "gdpPercent": 58.6,
+            "happiness": 82.2,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 8.5,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1077.01,
+            "gdp": 34284.18,
+            "gdpPercent": -13.5,
+            "happiness": 63,
+            "environment": 0.767,
+            "migration": 1.5,
+            "foodShortage": 25.2,
+            "waterShortage": 52.7
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1438.8,
+            "gdp": 62147.81,
+            "gdpPercent": 71.7,
+            "happiness": 83.3,
+            "environment": 0.864,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 671.24,
+            "gdp": 23630.2,
+            "gdpPercent": 4.2,
+            "happiness": 59.5,
+            "environment": 0.485,
+            "migration": -0.1,
+            "foodShortage": 20.2,
+            "waterShortage": 52.8
+          }
+        ]
+      },
+      "eventCount": 21,
+      "recentEvents": [
+        {
+          "id": 20,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 18,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 14,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 13,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 12,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 10,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 9,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2050,
+      "gdp": 369595.36,
+      "gdpPercent": 4.3,
+      "population": 12017.1,
+      "populationPercent": 6.2,
+      "environment": 0.792,
+      "environmentChange": 3.8,
+      "happiness": 82,
+      "employment": 97.3,
+      "prices": {
+        "food": 52.24,
+        "water": 56.46,
+        "energy": 120.63,
+        "materials": 49.7
+      },
+      "resourceShortages": {
+        "food": 0,
+        "water": 0,
+        "energy": 6.6,
+        "materials": 3.2
+      },
+      "tradeValue": 59561.99,
+      "tradeVolume": 822.26,
+      "migrationRedistribution": 698.11,
+      "growingCities": 10,
+      "sectorSpecialization": 0.462,
+      "leastHappyCity": "岚港",
+      "leastHappiness": 75.1,
+      "mineralReserves": 9578.03,
+      "cityOutcomes": [
+        {
+          "name": "岚港",
+          "sector": "manufacturing",
+          "population": 938.81,
+          "gdp": 35694.25,
+          "gdpPercent": -0.7,
+          "happiness": 75.1,
+          "environment": 0.627,
+          "migration": -0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "青岑",
+          "sector": "technology",
+          "population": 1369.64,
+          "gdp": 46699.71,
+          "gdpPercent": 6.5,
+          "happiness": 88.6,
+          "environment": 0.929,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "白沄",
+          "sector": "agriculture",
+          "population": 706.47,
+          "gdp": 15340.28,
+          "gdpPercent": 9.2,
+          "happiness": 88.4,
+          "environment": 0.883,
+          "migration": 0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "澄原",
+          "sector": "agriculture",
+          "population": 724.6,
+          "gdp": 16660.88,
+          "gdpPercent": 9.8,
+          "happiness": 79.6,
+          "environment": 0.695,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "新铸",
+          "sector": "manufacturing",
+          "population": 743.4,
+          "gdp": 22301.88,
+          "gdpPercent": -0.4,
+          "happiness": 76.2,
+          "environment": 0.809,
+          "migration": 0,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "金屿",
+          "sector": "mining",
+          "population": 848.78,
+          "gdp": 25398.72,
+          "gdpPercent": 0.2,
+          "happiness": 79,
+          "environment": 0.876,
+          "migration": 0,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "望川",
+          "sector": "technology",
+          "population": 640.54,
+          "gdp": 23766.37,
+          "gdpPercent": 3.6,
+          "happiness": 87.4,
+          "environment": 0.746,
+          "migration": 0.3,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "砾城",
+          "sector": "mining",
+          "population": 1465.74,
+          "gdp": 39848.73,
+          "gdpPercent": 5.9,
+          "happiness": 81.3,
+          "environment": 0.853,
+          "migration": -0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "林屿",
+          "sector": "services",
+          "population": 1359.51,
+          "gdp": 41730.43,
+          "gdpPercent": 3.5,
+          "happiness": 87.5,
+          "environment": 0.905,
+          "migration": -0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "曙城",
+          "sector": "technology",
+          "population": 1103.37,
+          "gdp": 42469.94,
+          "gdpPercent": 5.8,
+          "happiness": 82.7,
+          "environment": 0.772,
+          "migration": 0,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "归原",
+          "sector": "agriculture",
+          "population": 1188.83,
+          "gdp": 35771.3,
+          "gdpPercent": 8.2,
+          "happiness": 76.2,
+          "environment": 0.595,
+          "migration": -0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "远舟",
+          "sector": "manufacturing",
+          "population": 927.41,
+          "gdp": 23912.87,
+          "gdpPercent": 1.7,
+          "happiness": 79.5,
+          "environment": 0.809,
+          "migration": -0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        }
+      ],
+      "years": 10
+    },
+    {
+      "year": 2090,
+      "gdp": 440920.85,
+      "gdpPercent": 24.4,
+      "population": 14097.7,
+      "populationPercent": 24.5,
+      "environment": 0.902,
+      "environmentChange": 14.8,
+      "happiness": 86.6,
+      "employment": 95.4,
+      "prices": {
+        "food": 72.52,
+        "water": 66.04,
+        "energy": 131.9,
+        "materials": 87.02
+      },
+      "resourceShortages": {
+        "food": 0,
+        "water": 2.9,
+        "energy": 2.1,
+        "materials": 14.7
+      },
+      "tradeValue": 104631.55,
+      "tradeVolume": 1160.22,
+      "migrationRedistribution": 2778.66,
+      "growingCities": 11,
+      "sectorSpecialization": 0.482,
+      "leastHappyCity": "归原",
+      "leastHappiness": 75.4,
+      "mineralReserves": 3709.36,
+      "cityOutcomes": [
+        {
+          "name": "岚港",
+          "sector": "manufacturing",
+          "population": 1053.35,
+          "gdp": 35824.23,
+          "gdpPercent": -0.4,
+          "happiness": 88.3,
+          "environment": 0.898,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "青岑",
+          "sector": "technology",
+          "population": 1571.83,
+          "gdp": 54245.15,
+          "gdpPercent": 23.7,
+          "happiness": 90.2,
+          "environment": 0.99,
+          "migration": 0,
+          "foodShortage": 0,
+          "waterShortage": 2.9
+        },
+        {
+          "name": "白沄",
+          "sector": "agriculture",
+          "population": 799.4,
+          "gdp": 21423.73,
+          "gdpPercent": 52.5,
+          "happiness": 87.7,
+          "environment": 0.965,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "澄原",
+          "sector": "agriculture",
+          "population": 867.75,
+          "gdp": 24759.13,
+          "gdpPercent": 63.2,
+          "happiness": 87.6,
+          "environment": 0.777,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "新铸",
+          "sector": "manufacturing",
+          "population": 835.1,
+          "gdp": 24258.13,
+          "gdpPercent": 8.4,
+          "happiness": 89.5,
+          "environment": 0.976,
+          "migration": 0.2,
+          "foodShortage": 0,
+          "waterShortage": 7
+        },
+        {
+          "name": "金屿",
+          "sector": "mining",
+          "population": 922.62,
+          "gdp": 25842.19,
+          "gdpPercent": 1.9,
+          "happiness": 82.9,
+          "environment": 0.99,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 24.4
+        },
+        {
+          "name": "望川",
+          "sector": "technology",
+          "population": 732.99,
+          "gdp": 29558.33,
+          "gdpPercent": 28.8,
+          "happiness": 87,
+          "environment": 0.872,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "砾城",
+          "sector": "mining",
+          "population": 1790.66,
+          "gdp": 51714.36,
+          "gdpPercent": 37.4,
+          "happiness": 91.4,
+          "environment": 0.99,
+          "migration": -0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "林屿",
+          "sector": "services",
+          "population": 1687.98,
+          "gdp": 48782.8,
+          "gdpPercent": 21,
+          "happiness": 85.6,
+          "environment": 0.936,
+          "migration": -0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "曙城",
+          "sector": "technology",
+          "population": 1361.38,
+          "gdp": 48870.06,
+          "gdpPercent": 21.7,
+          "happiness": 86.7,
+          "environment": 0.952,
+          "migration": 0,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "归原",
+          "sector": "agriculture",
+          "population": 1408.32,
+          "gdp": 47387.76,
+          "gdpPercent": 43.4,
+          "happiness": 75.4,
+          "environment": 0.605,
+          "migration": -0.3,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "远舟",
+          "sector": "manufacturing",
+          "population": 1066.27,
+          "gdp": 28254.97,
+          "gdpPercent": 20.2,
+          "happiness": 87.3,
+          "environment": 0.874,
+          "migration": 0,
+          "foodShortage": 0,
+          "waterShortage": 0
+        }
+      ],
+      "years": 50
+    },
+    {
+      "year": 2140,
+      "gdp": 536605.77,
+      "gdpPercent": 51.4,
+      "population": 14316.5,
+      "populationPercent": 26.5,
+      "environment": 0.949,
+      "environmentChange": 19.5,
+      "happiness": 84.4,
+      "employment": 76.9,
+      "prices": {
+        "food": 93.45,
+        "water": 54.1,
+        "energy": 115.99,
+        "materials": 103.01
+      },
+      "resourceShortages": {
+        "food": 2.9,
+        "water": 10.9,
+        "energy": 0.7,
+        "materials": 21.7
+      },
+      "tradeValue": 116884.06,
+      "tradeVolume": 1237.11,
+      "migrationRedistribution": 2997.51,
+      "growingCities": 12,
+      "sectorSpecialization": 0.492,
+      "leastHappyCity": "金屿",
+      "leastHappiness": 78.6,
+      "mineralReserves": 1101.01,
+      "cityOutcomes": [
+        {
+          "name": "岚港",
+          "sector": "manufacturing",
+          "population": 1063.18,
+          "gdp": 37034.28,
+          "gdpPercent": 4.1,
+          "happiness": 82.3,
+          "environment": 0.99,
+          "migration": 0,
+          "foodShortage": 12.8,
+          "waterShortage": 3
+        },
+        {
+          "name": "青岑",
+          "sector": "technology",
+          "population": 1548.87,
+          "gdp": 59873.51,
+          "gdpPercent": 27.8,
+          "happiness": 87.2,
+          "environment": 0.99,
+          "migration": -0.1,
+          "foodShortage": 0.6,
+          "waterShortage": 23.7
+        },
+        {
+          "name": "白沄",
+          "sector": "agriculture",
+          "population": 816.62,
+          "gdp": 32686.1,
+          "gdpPercent": 111.5,
+          "happiness": 88.9,
+          "environment": 0.99,
+          "migration": 0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "澄原",
+          "sector": "agriculture",
+          "population": 907.46,
+          "gdp": 39620.11,
+          "gdpPercent": 135.2,
+          "happiness": 88.3,
+          "environment": 0.948,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "新铸",
+          "sector": "manufacturing",
+          "population": 822.84,
+          "gdp": 31581.01,
+          "gdpPercent": 41.8,
+          "happiness": 87.8,
+          "environment": 0.982,
+          "migration": 0.2,
+          "foodShortage": 0,
+          "waterShortage": 25.7
+        },
+        {
+          "name": "金屿",
+          "sector": "mining",
+          "population": 850.06,
+          "gdp": 26450.03,
+          "gdpPercent": 4,
+          "happiness": 78.6,
+          "environment": 0.885,
+          "migration": 0,
+          "foodShortage": 18.2,
+          "waterShortage": 23
+        },
+        {
+          "name": "望川",
+          "sector": "technology",
+          "population": 753.42,
+          "gdp": 36925.46,
+          "gdpPercent": 54.7,
+          "happiness": 87.9,
+          "environment": 0.99,
+          "migration": 0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "砾城",
+          "sector": "mining",
+          "population": 1875.81,
+          "gdp": 61780.29,
+          "gdpPercent": 54.2,
+          "happiness": 88.2,
+          "environment": 0.99,
+          "migration": -0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "林屿",
+          "sector": "services",
+          "population": 1800.67,
+          "gdp": 62521.54,
+          "gdpPercent": 48.9,
+          "happiness": 84.8,
+          "environment": 0.99,
+          "migration": -0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "曙城",
+          "sector": "technology",
+          "population": 1384.76,
+          "gdp": 55329.53,
+          "gdpPercent": 29.6,
+          "happiness": 80.1,
+          "environment": 0.962,
+          "migration": 0,
+          "foodShortage": 0,
+          "waterShortage": 27
+        },
+        {
+          "name": "归原",
+          "sector": "agriculture",
+          "population": 1455.9,
+          "gdp": 57475.29,
+          "gdpPercent": 58.9,
+          "happiness": 79.4,
+          "environment": 0.787,
+          "migration": -0.2,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "远舟",
+          "sector": "manufacturing",
+          "population": 1036.92,
+          "gdp": 35328.62,
+          "gdpPercent": 48.1,
+          "happiness": 79.7,
+          "environment": 0.889,
+          "migration": 0,
+          "foodShortage": 3.5,
+          "waterShortage": 28
+        }
+      ],
+      "years": 100
+    },
+    {
+      "year": 2240,
+      "gdp": 695211.75,
+      "gdpPercent": 96.2,
+      "population": 12913.8,
+      "populationPercent": 14.1,
+      "environment": 0.946,
+      "environmentChange": 19.2,
+      "happiness": 82.7,
+      "employment": 63.6,
+      "prices": {
+        "food": 93.25,
+        "water": 54.34,
+        "energy": 55.02,
+        "materials": 120.85
+      },
+      "resourceShortages": {
+        "food": 10.9,
+        "water": 13.4,
+        "energy": 0,
+        "materials": 31.1
+      },
+      "tradeValue": 104534.26,
+      "tradeVolume": 1170.06,
+      "migrationRedistribution": 2477.39,
+      "growingCities": 7,
+      "sectorSpecialization": 0.608,
+      "leastHappyCity": "远舟",
+      "leastHappiness": 56.6,
+      "mineralReserves": 97,
+      "cityOutcomes": [
+        {
+          "name": "岚港",
+          "sector": "manufacturing",
+          "population": 916.88,
+          "gdp": 29116.44,
+          "gdpPercent": -20.2,
+          "happiness": 74.8,
+          "environment": 0.99,
+          "migration": 0,
+          "foodShortage": 27.3,
+          "waterShortage": 1.3
+        },
+        {
+          "name": "青岑",
+          "sector": "technology",
+          "population": 1204.76,
+          "gdp": 49614.19,
+          "gdpPercent": -17.6,
+          "happiness": 79.2,
+          "environment": 0.961,
+          "migration": 0,
+          "foodShortage": 20.2,
+          "waterShortage": 34.3
+        },
+        {
+          "name": "白沄",
+          "sector": "agriculture",
+          "population": 837.93,
+          "gdp": 81596.94,
+          "gdpPercent": 125.6,
+          "happiness": 87.4,
+          "environment": 0.99,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 8.8
+        },
+        {
+          "name": "澄原",
+          "sector": "agriculture",
+          "population": 924.37,
+          "gdp": 98178.97,
+          "gdpPercent": 119.7,
+          "happiness": 87.4,
+          "environment": 0.99,
+          "migration": 0.1,
+          "foodShortage": 0,
+          "waterShortage": 1.2
+        },
+        {
+          "name": "新铸",
+          "sector": "manufacturing",
+          "population": 657.22,
+          "gdp": 24647.71,
+          "gdpPercent": -20.9,
+          "happiness": 67.7,
+          "environment": 0.856,
+          "migration": 0,
+          "foodShortage": 18.9,
+          "waterShortage": 36.2
+        },
+        {
+          "name": "金屿",
+          "sector": "mining",
+          "population": 641.18,
+          "gdp": 20013.3,
+          "gdpPercent": -23.4,
+          "happiness": 69.1,
+          "environment": 0.986,
+          "migration": 0,
+          "foodShortage": 24.5,
+          "waterShortage": 23.6
+        },
+        {
+          "name": "望川",
+          "sector": "technology",
+          "population": 706.7,
+          "gdp": 52660.23,
+          "gdpPercent": 38,
+          "happiness": 90.8,
+          "environment": 0.99,
+          "migration": 0.3,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "砾城",
+          "sector": "mining",
+          "population": 1773.95,
+          "gdp": 70174.71,
+          "gdpPercent": 9.3,
+          "happiness": 88.2,
+          "environment": 0.979,
+          "migration": -0.2,
+          "foodShortage": 16.7,
+          "waterShortage": 0
+        },
+        {
+          "name": "林屿",
+          "sector": "services",
+          "population": 1767.85,
+          "gdp": 70470.88,
+          "gdpPercent": 9.5,
+          "happiness": 89,
+          "environment": 0.99,
+          "migration": -0.1,
+          "foodShortage": 2.8,
+          "waterShortage": 0
+        },
+        {
+          "name": "曙城",
+          "sector": "technology",
+          "population": 1257.51,
+          "gdp": 66206.39,
+          "gdpPercent": 17.3,
+          "happiness": 86.5,
+          "environment": 0.977,
+          "migration": 0.1,
+          "foodShortage": 4.3,
+          "waterShortage": 4.1
+        },
+        {
+          "name": "归原",
+          "sector": "agriculture",
+          "population": 1472.91,
+          "gdp": 104341.44,
+          "gdpPercent": 69.5,
+          "happiness": 89.6,
+          "environment": 0.99,
+          "migration": -0.1,
+          "foodShortage": 0,
+          "waterShortage": 0
+        },
+        {
+          "name": "远舟",
+          "sector": "manufacturing",
+          "population": 752.55,
+          "gdp": 28190.54,
+          "gdpPercent": -20.1,
+          "happiness": 56.6,
+          "environment": 0.65,
+          "migration": -0.1,
+          "foodShortage": 16.5,
+          "waterShortage": 51
+        }
+      ],
+      "years": 200
+    }
+  ],
+  "shockResults": [
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "injectedEvent": "scarcity",
+      "seed": 2026,
+      "years": 50,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2090,
+        "gdp": 441351.59,
+        "gdpPercent": 24.5,
+        "population": 14099.7,
+        "populationPercent": 24.6,
+        "environment": 0.904,
+        "environmentChange": 15,
+        "happiness": 86.7,
+        "employment": 95.4,
+        "prices": {
+          "food": 72.91,
+          "water": 66.11,
+          "energy": 131.97,
+          "materials": 86.99
+        },
+        "resourceShortages": {
+          "food": 0,
+          "water": 2.8,
+          "energy": 2.2,
+          "materials": 15.2
+        },
+        "tradeValue": 104772.52,
+        "tradeVolume": 1156.35,
+        "migrationRedistribution": 2780.73,
+        "growingCities": 11,
+        "sectorSpecialization": 0.481,
+        "leastHappyCity": "归原",
+        "leastHappiness": 74.5,
+        "mineralReserves": 3709.05,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1054.55,
+            "gdp": 35680.68,
+            "gdpPercent": -0.8,
+            "happiness": 88.7,
+            "environment": 0.912,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1572.6,
+            "gdp": 54518.93,
+            "gdpPercent": 24.4,
+            "happiness": 90.4,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 2.9
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 799.78,
+            "gdp": 21431.56,
+            "gdpPercent": 52.5,
+            "happiness": 88.2,
+            "environment": 0.966,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 867.6,
+            "gdp": 24851.35,
+            "gdpPercent": 63.8,
+            "happiness": 87.6,
+            "environment": 0.777,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 835.47,
+            "gdp": 24263.97,
+            "gdpPercent": 8.4,
+            "happiness": 89.9,
+            "environment": 0.977,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 6.9
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 922.55,
+            "gdp": 26037.85,
+            "gdpPercent": 2.7,
+            "happiness": 82.9,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 24.4
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 732.89,
+            "gdp": 29566.87,
+            "gdpPercent": 28.9,
+            "happiness": 87,
+            "environment": 0.872,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1790.58,
+            "gdp": 51719.46,
+            "gdpPercent": 37.5,
+            "happiness": 91.4,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1687.92,
+            "gdp": 48791.97,
+            "gdpPercent": 21,
+            "happiness": 85.6,
+            "environment": 0.936,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1361.28,
+            "gdp": 48867.63,
+            "gdpPercent": 21.7,
+            "happiness": 86.7,
+            "environment": 0.952,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1408.27,
+            "gdp": 47365.29,
+            "gdpPercent": 43.3,
+            "happiness": 74.5,
+            "environment": 0.606,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1066.21,
+            "gdp": 28256.04,
+            "gdpPercent": 20.2,
+            "happiness": 87.3,
+            "environment": 0.874,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          }
+        ]
+      },
+      "eventCount": 10,
+      "recentEvents": [
+        {
+          "id": 9,
+          "year": 2086,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "白沄 的可用发电能力暂时下降。",
+          "cityId": 2,
+          "severity": "warning"
+        },
+        {
+          "id": 8,
+          "year": 2083,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "远舟 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 11,
+          "severity": "danger"
+        },
+        {
+          "id": 7,
+          "year": 2074,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "砾城 提升了工艺效率与本地研发投入。",
+          "cityId": 7,
+          "severity": "positive"
+        },
+        {
+          "id": 6,
+          "year": 2073,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 5,
+          "year": 2069,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "澄原 的可用发电能力暂时下降。",
+          "cityId": 3,
+          "severity": "warning"
+        },
+        {
+          "id": 4,
+          "year": 2056,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "曙城 增加修复投入并加快可再生能源建设。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 3,
+          "year": 2047,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "澄原—砾城 通道运力短时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 2,
+          "year": 2043,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "岚港 提升了工艺效率与本地研发投入。",
+          "cityId": 0,
+          "severity": "positive"
+        },
+        {
+          "id": 1,
+          "year": 2040,
+          "type": "crisis",
+          "title": "战略库存遭遇冲击",
+          "description": "岚港 的战略储备下降 45%，跨城采购开始承压。",
+          "cityId": 0,
+          "severity": "danger"
+        },
+        {
+          "id": 0,
+          "year": 2040,
+          "type": "founding",
+          "title": "联盟档案建立",
+          "description": "12 座差异化城市开始共享贸易网络。",
+          "cityId": null,
+          "severity": "info"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "injectedEvent": "migration",
+      "seed": 2026,
+      "years": 50,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2090,
+        "gdp": 441110.77,
+        "gdpPercent": 24.5,
+        "population": 14100.8,
+        "populationPercent": 24.6,
+        "environment": 0.906,
+        "environmentChange": 15.2,
+        "happiness": 86.5,
+        "employment": 95.4,
+        "prices": {
+          "food": 71.74,
+          "water": 65.98,
+          "energy": 131.78,
+          "materials": 87.16
+        },
+        "resourceShortages": {
+          "food": 0,
+          "water": 2.3,
+          "energy": 2.3,
+          "materials": 15.2
+        },
+        "tradeValue": 104861.29,
+        "tradeVolume": 1167.83,
+        "migrationRedistribution": 2781.76,
+        "growingCities": 12,
+        "sectorSpecialization": 0.482,
+        "leastHappyCity": "归原",
+        "leastHappiness": 74.6,
+        "mineralReserves": 3709.47,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1091.07,
+            "gdp": 36307.1,
+            "gdpPercent": 1,
+            "happiness": 85.2,
+            "environment": 0.927,
+            "migration": 1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1568.9,
+            "gdp": 53613.45,
+            "gdpPercent": 22.3,
+            "happiness": 91.3,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 796.88,
+            "gdp": 21329.97,
+            "gdpPercent": 51.8,
+            "happiness": 88.9,
+            "environment": 0.97,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 864.54,
+            "gdp": 24845.85,
+            "gdpPercent": 63.7,
+            "happiness": 85.6,
+            "environment": 0.78,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 832.88,
+            "gdp": 24496.59,
+            "gdpPercent": 9.4,
+            "happiness": 90.5,
+            "environment": 0.979,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 3.7
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 919.52,
+            "gdp": 26026.08,
+            "gdpPercent": 2.7,
+            "happiness": 83,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 24.4
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 728.72,
+            "gdp": 29526.05,
+            "gdpPercent": 28.7,
+            "happiness": 87,
+            "environment": 0.872,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1786.99,
+            "gdp": 51789.23,
+            "gdpPercent": 37.6,
+            "happiness": 91.4,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1684.88,
+            "gdp": 48660.9,
+            "gdpPercent": 20.7,
+            "happiness": 85.9,
+            "environment": 0.94,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1357.22,
+            "gdp": 48906.18,
+            "gdpPercent": 21.8,
+            "happiness": 86.9,
+            "environment": 0.952,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1406.26,
+            "gdp": 47378.94,
+            "gdpPercent": 43.4,
+            "happiness": 74.6,
+            "environment": 0.606,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1062.9,
+            "gdp": 28230.42,
+            "gdpPercent": 20,
+            "happiness": 87.4,
+            "environment": 0.874,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          }
+        ]
+      },
+      "eventCount": 10,
+      "recentEvents": [
+        {
+          "id": 9,
+          "year": 2086,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "白沄 的可用发电能力暂时下降。",
+          "cityId": 2,
+          "severity": "warning"
+        },
+        {
+          "id": 8,
+          "year": 2083,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "远舟 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 11,
+          "severity": "danger"
+        },
+        {
+          "id": 7,
+          "year": 2074,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "砾城 提升了工艺效率与本地研发投入。",
+          "cityId": 7,
+          "severity": "positive"
+        },
+        {
+          "id": 6,
+          "year": 2073,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 5,
+          "year": 2069,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "澄原 的可用发电能力暂时下降。",
+          "cityId": 3,
+          "severity": "warning"
+        },
+        {
+          "id": 4,
+          "year": 2056,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "曙城 增加修复投入并加快可再生能源建设。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 3,
+          "year": 2047,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "澄原—砾城 通道运力短时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 2,
+          "year": 2043,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "岚港 提升了工艺效率与本地研发投入。",
+          "cityId": 0,
+          "severity": "positive"
+        },
+        {
+          "id": 1,
+          "year": 2040,
+          "type": "migration",
+          "title": "区域安置网络启动",
+          "description": "岚港 开放了临时居住与就业安置名额。",
+          "cityId": 0,
+          "severity": "warning"
+        },
+        {
+          "id": 0,
+          "year": 2040,
+          "type": "founding",
+          "title": "联盟档案建立",
+          "description": "12 座差异化城市开始共享贸易网络。",
+          "cityId": null,
+          "severity": "info"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "injectedEvent": "disaster",
+      "seed": 2026,
+      "years": 50,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2090,
+        "gdp": 440523.12,
+        "gdpPercent": 24.3,
+        "population": 14065.5,
+        "populationPercent": 24.3,
+        "environment": 0.893,
+        "environmentChange": 13.9,
+        "happiness": 85.8,
+        "employment": 95.4,
+        "prices": {
+          "food": 74.7,
+          "water": 68.38,
+          "energy": 130.46,
+          "materials": 86.9
+        },
+        "resourceShortages": {
+          "food": 0,
+          "water": 7.1,
+          "energy": 2.7,
+          "materials": 15.2
+        },
+        "tradeValue": 99786.34,
+        "tradeVolume": 1107.7,
+        "migrationRedistribution": 2746.53,
+        "growingCities": 11,
+        "sectorSpecialization": 0.481,
+        "leastHappyCity": "归原",
+        "leastHappiness": 74.5,
+        "mineralReserves": 3708.84,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1029.85,
+            "gdp": 35335.65,
+            "gdpPercent": -1.7,
+            "happiness": 80.6,
+            "environment": 0.781,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 28.7
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1571.97,
+            "gdp": 53854.86,
+            "gdpPercent": 22.9,
+            "happiness": 90.4,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 5.9
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 797.88,
+            "gdp": 21695,
+            "gdpPercent": 54.4,
+            "happiness": 87.9,
+            "environment": 0.976,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 9.3
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 867.7,
+            "gdp": 24390.96,
+            "gdpPercent": 60.7,
+            "happiness": 85.5,
+            "environment": 0.777,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 832.91,
+            "gdp": 23617.94,
+            "gdpPercent": 5.5,
+            "happiness": 88.2,
+            "environment": 0.971,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 16.9
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 917.46,
+            "gdp": 25675.94,
+            "gdpPercent": 1.3,
+            "happiness": 83,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 24.4
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 732.95,
+            "gdp": 29506,
+            "gdpPercent": 28.6,
+            "happiness": 86.8,
+            "environment": 0.872,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1790.66,
+            "gdp": 52222.08,
+            "gdpPercent": 38.8,
+            "happiness": 91.4,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1688.05,
+            "gdp": 49331.57,
+            "gdpPercent": 22.3,
+            "happiness": 85.8,
+            "environment": 0.937,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1361.41,
+            "gdp": 49049.47,
+            "gdpPercent": 22.2,
+            "happiness": 86.2,
+            "environment": 0.952,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1408.31,
+            "gdp": 47469.63,
+            "gdpPercent": 43.6,
+            "happiness": 74.5,
+            "environment": 0.606,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1066.38,
+            "gdp": 28374.03,
+            "gdpPercent": 20.7,
+            "happiness": 87.4,
+            "environment": 0.875,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          }
+        ]
+      },
+      "eventCount": 10,
+      "recentEvents": [
+        {
+          "id": 9,
+          "year": 2086,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "白沄 的可用发电能力暂时下降。",
+          "cityId": 2,
+          "severity": "warning"
+        },
+        {
+          "id": 8,
+          "year": 2083,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "远舟 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 11,
+          "severity": "danger"
+        },
+        {
+          "id": 7,
+          "year": 2074,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "砾城 提升了工艺效率与本地研发投入。",
+          "cityId": 7,
+          "severity": "positive"
+        },
+        {
+          "id": 6,
+          "year": 2073,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 5,
+          "year": 2069,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "澄原 的可用发电能力暂时下降。",
+          "cityId": 3,
+          "severity": "warning"
+        },
+        {
+          "id": 4,
+          "year": 2056,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "曙城 增加修复投入并加快可再生能源建设。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 3,
+          "year": 2047,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "澄原—砾城 通道运力短时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 2,
+          "year": 2043,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "岚港 提升了工艺效率与本地研发投入。",
+          "cityId": 0,
+          "severity": "positive"
+        },
+        {
+          "id": 1,
+          "year": 2040,
+          "type": "disaster",
+          "title": "强风暴潮冲击沿岸设施",
+          "description": "岚港 的港区库存与生态环境遭受冲击。",
+          "cityId": 0,
+          "severity": "danger"
+        },
+        {
+          "id": 0,
+          "year": 2040,
+          "type": "founding",
+          "title": "联盟档案建立",
+          "description": "12 座差异化城市开始共享贸易网络。",
+          "cityId": null,
+          "severity": "info"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "injectedEvent": "breakthrough",
+      "seed": 2026,
+      "years": 50,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2090,
+        "gdp": 442654.84,
+        "gdpPercent": 24.9,
+        "population": 14094.7,
+        "populationPercent": 24.5,
+        "environment": 0.898,
+        "environmentChange": 14.4,
+        "happiness": 86.7,
+        "employment": 96,
+        "prices": {
+          "food": 73.17,
+          "water": 65.69,
+          "energy": 131.69,
+          "materials": 86.62
+        },
+        "resourceShortages": {
+          "food": 0,
+          "water": 3.8,
+          "energy": 2,
+          "materials": 15.1
+        },
+        "tradeValue": 104727.21,
+        "tradeVolume": 1154.51,
+        "migrationRedistribution": 2775.67,
+        "growingCities": 12,
+        "sectorSpecialization": 0.477,
+        "leastHappyCity": "归原",
+        "leastHappiness": 74.5,
+        "mineralReserves": 3721.49,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1056.68,
+            "gdp": 37045.36,
+            "gdpPercent": 3,
+            "happiness": 89,
+            "environment": 0.858,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1572.55,
+            "gdp": 54297.14,
+            "gdpPercent": 23.9,
+            "happiness": 90.9,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 1
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 797.89,
+            "gdp": 21698.9,
+            "gdpPercent": 54.5,
+            "happiness": 87.4,
+            "environment": 0.96,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 7.5
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 867.49,
+            "gdp": 24942.03,
+            "gdpPercent": 64.4,
+            "happiness": 87.6,
+            "environment": 0.777,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 833.02,
+            "gdp": 23904.9,
+            "gdpPercent": 6.8,
+            "happiness": 88.6,
+            "environment": 0.972,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 12.4
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 920.64,
+            "gdp": 25796.81,
+            "gdpPercent": 1.8,
+            "happiness": 83,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 24.4
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 732.68,
+            "gdp": 29577.38,
+            "gdpPercent": 28.9,
+            "happiness": 87.2,
+            "environment": 0.872,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1790.43,
+            "gdp": 51955.66,
+            "gdpPercent": 38.1,
+            "happiness": 91.4,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1687.93,
+            "gdp": 48797.21,
+            "gdpPercent": 21,
+            "happiness": 85.9,
+            "environment": 0.94,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1361.1,
+            "gdp": 48824.49,
+            "gdpPercent": 21.6,
+            "happiness": 86.7,
+            "environment": 0.952,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1408.17,
+            "gdp": 47453.22,
+            "gdpPercent": 43.6,
+            "happiness": 74.5,
+            "environment": 0.606,
+            "migration": -0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1066.1,
+            "gdp": 28361.74,
+            "gdpPercent": 20.6,
+            "happiness": 87.4,
+            "environment": 0.874,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          }
+        ]
+      },
+      "eventCount": 10,
+      "recentEvents": [
+        {
+          "id": 9,
+          "year": 2086,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "白沄 的可用发电能力暂时下降。",
+          "cityId": 2,
+          "severity": "warning"
+        },
+        {
+          "id": 8,
+          "year": 2083,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "远舟 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 11,
+          "severity": "danger"
+        },
+        {
+          "id": 7,
+          "year": 2074,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "砾城 提升了工艺效率与本地研发投入。",
+          "cityId": 7,
+          "severity": "positive"
+        },
+        {
+          "id": 6,
+          "year": 2073,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 5,
+          "year": 2069,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "澄原 的可用发电能力暂时下降。",
+          "cityId": 3,
+          "severity": "warning"
+        },
+        {
+          "id": 4,
+          "year": 2056,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "曙城 增加修复投入并加快可再生能源建设。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 3,
+          "year": 2047,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "澄原—砾城 通道运力短时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 2,
+          "year": 2043,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "岚港 提升了工艺效率与本地研发投入。",
+          "cityId": 0,
+          "severity": "positive"
+        },
+        {
+          "id": 1,
+          "year": 2040,
+          "type": "breakthrough",
+          "title": "清洁技术突破",
+          "description": "岚港 将突破成果投入可再生发电和产业效率。",
+          "cityId": 0,
+          "severity": "positive"
+        },
+        {
+          "id": 0,
+          "year": 2040,
+          "type": "founding",
+          "title": "联盟档案建立",
+          "description": "12 座差异化城市开始共享贸易网络。",
+          "cityId": null,
+          "severity": "info"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "policyResults": [
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "policy": "green",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 553238.42,
+        "gdpPercent": 56.1,
+        "population": 14179.6,
+        "populationPercent": 25.3,
+        "environment": 0.971,
+        "environmentChange": 21.7,
+        "happiness": 84,
+        "employment": 76.4,
+        "prices": {
+          "food": 104.31,
+          "water": 48.96,
+          "energy": 103.64,
+          "materials": 102.13
+        },
+        "resourceShortages": {
+          "food": 5.2,
+          "water": 12.5,
+          "energy": 0.7,
+          "materials": 16.3
+        },
+        "tradeValue": 114378.96,
+        "tradeVolume": 1125.35,
+        "migrationRedistribution": 2860.63,
+        "growingCities": 12,
+        "sectorSpecialization": 0.484,
+        "leastHappyCity": "金屿",
+        "leastHappiness": 76.2,
+        "mineralReserves": 1090.91,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1058.48,
+            "gdp": 38915.91,
+            "gdpPercent": 8.5,
+            "happiness": 82.7,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 11.1,
+            "waterShortage": 2.9
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1496.34,
+            "gdp": 57354.4,
+            "gdpPercent": 22.9,
+            "happiness": 85.9,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 5.2,
+            "waterShortage": 23.6
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 821.98,
+            "gdp": 33348.23,
+            "gdpPercent": 115.7,
+            "happiness": 87.7,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 911.77,
+            "gdp": 40554.79,
+            "gdpPercent": 145.5,
+            "happiness": 89.2,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 784.43,
+            "gdp": 24357.78,
+            "gdpPercent": 9.8,
+            "happiness": 81.1,
+            "environment": 0.979,
+            "migration": 0.1,
+            "foodShortage": 13.6,
+            "waterShortage": 25.5
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 827.62,
+            "gdp": 25781.63,
+            "gdpPercent": 0.9,
+            "happiness": 76.2,
+            "environment": 0.869,
+            "migration": 0,
+            "foodShortage": 19.7,
+            "waterShortage": 23.7
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 738.28,
+            "gdp": 33488.01,
+            "gdpPercent": 41,
+            "happiness": 83.8,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 18.8
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1876.41,
+            "gdp": 67306.83,
+            "gdpPercent": 67.8,
+            "happiness": 88.2,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1805.44,
+            "gdp": 60282.51,
+            "gdpPercent": 43.7,
+            "happiness": 83.7,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0.2,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1365.07,
+            "gdp": 56557.04,
+            "gdpPercent": 32.4,
+            "happiness": 79,
+            "environment": 0.957,
+            "migration": 0,
+            "foodShortage": 4.4,
+            "waterShortage": 27
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1468.67,
+            "gdp": 83217.29,
+            "gdpPercent": 130,
+            "happiness": 86.6,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1025.15,
+            "gdp": 32074.01,
+            "gdpPercent": 34,
+            "happiness": 79.5,
+            "environment": 0.924,
+            "migration": 0,
+            "foodShortage": 7.9,
+            "waterShortage": 28
+          }
+        ]
+      },
+      "eventCount": 22,
+      "recentEvents": [
+        {
+          "id": 21,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 20,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 18,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 14,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 13,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 12,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 10,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "policy": "innovation",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 539788.06,
+        "gdpPercent": 52.3,
+        "population": 14248.6,
+        "populationPercent": 25.9,
+        "environment": 0.962,
+        "environmentChange": 20.8,
+        "happiness": 85.8,
+        "employment": 79.3,
+        "prices": {
+          "food": 96.55,
+          "water": 49.76,
+          "energy": 111.95,
+          "materials": 100.81
+        },
+        "resourceShortages": {
+          "food": 2,
+          "water": 11.2,
+          "energy": 0.9,
+          "materials": 19.8
+        },
+        "tradeValue": 118083.56,
+        "tradeVolume": 1219.28,
+        "migrationRedistribution": 2929.59,
+        "growingCities": 12,
+        "sectorSpecialization": 0.461,
+        "leastHappyCity": "曙城",
+        "leastHappiness": 79.6,
+        "mineralReserves": 1110.56,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1066.49,
+            "gdp": 40671.83,
+            "gdpPercent": 13.1,
+            "happiness": 87.2,
+            "environment": 0.979,
+            "migration": 0,
+            "foodShortage": 1.3,
+            "waterShortage": 3.1
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1522.68,
+            "gdp": 58297.77,
+            "gdpPercent": 24.8,
+            "happiness": 86.7,
+            "environment": 0.99,
+            "migration": -0.1,
+            "foodShortage": 2.9,
+            "waterShortage": 23.8
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 814.64,
+            "gdp": 30700.18,
+            "gdpPercent": 98.6,
+            "happiness": 90.7,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 2.9
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 909.12,
+            "gdp": 38897.14,
+            "gdpPercent": 130.4,
+            "happiness": 89,
+            "environment": 0.971,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 798.16,
+            "gdp": 27196.3,
+            "gdpPercent": 22.1,
+            "happiness": 86.1,
+            "environment": 0.945,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 26.2
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 844.55,
+            "gdp": 27488.84,
+            "gdpPercent": 7.1,
+            "happiness": 79.6,
+            "environment": 0.935,
+            "migration": 0.1,
+            "foodShortage": 17,
+            "waterShortage": 23
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 753.77,
+            "gdp": 36319.63,
+            "gdpPercent": 51.9,
+            "happiness": 87.6,
+            "environment": 0.99,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1869.55,
+            "gdp": 65575.55,
+            "gdpPercent": 62.1,
+            "happiness": 90.3,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1799.59,
+            "gdp": 63946.64,
+            "gdpPercent": 51.8,
+            "happiness": 86.4,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1374.47,
+            "gdp": 55195.89,
+            "gdpPercent": 29.1,
+            "happiness": 79.6,
+            "environment": 0.958,
+            "migration": -0.1,
+            "foodShortage": 2.1,
+            "waterShortage": 27
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1462.45,
+            "gdp": 62829.83,
+            "gdpPercent": 72.6,
+            "happiness": 85.1,
+            "environment": 0.928,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1033.11,
+            "gdp": 32668.45,
+            "gdpPercent": 36.2,
+            "happiness": 80.2,
+            "environment": 0.881,
+            "migration": 0,
+            "foodShortage": 1.1,
+            "waterShortage": 27.9
+          }
+        ]
+      },
+      "eventCount": 22,
+      "recentEvents": [
+        {
+          "id": 21,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 20,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 18,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 14,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 13,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 12,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 10,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    },
+    {
+      "scenario": "balanced",
+      "scenarioName": "平衡演进",
+      "policy": "resilience",
+      "seed": 2026,
+      "years": 100,
+      "start": {
+        "year": 2040,
+        "gdp": 354358,
+        "population": 11319,
+        "environment": 0.754,
+        "happiness": 70.3
+      },
+      "end": {
+        "year": 2140,
+        "gdp": 564049.27,
+        "gdpPercent": 59.2,
+        "population": 14301.2,
+        "populationPercent": 26.3,
+        "environment": 0.868,
+        "environmentChange": 11.4,
+        "happiness": 85.2,
+        "employment": 75.3,
+        "prices": {
+          "food": 93.78,
+          "water": 54.83,
+          "energy": 86.14,
+          "materials": 106.78
+        },
+        "resourceShortages": {
+          "food": 3,
+          "water": 10.5,
+          "energy": 0.8,
+          "materials": 20.4
+        },
+        "tradeValue": 105414.23,
+        "tradeVolume": 1173.32,
+        "migrationRedistribution": 2982.23,
+        "growingCities": 12,
+        "sectorSpecialization": 0.531,
+        "leastHappyCity": "金屿",
+        "leastHappiness": 66.4,
+        "mineralReserves": 1090.6,
+        "cityOutcomes": [
+          {
+            "name": "岚港",
+            "sector": "manufacturing",
+            "population": 1048.5,
+            "gdp": 39096.98,
+            "gdpPercent": 4.5,
+            "happiness": 78,
+            "environment": 0.742,
+            "migration": -0.1,
+            "foodShortage": 5.6,
+            "waterShortage": 2.9
+          },
+          {
+            "name": "青岑",
+            "sector": "technology",
+            "population": 1546.63,
+            "gdp": 58366.26,
+            "gdpPercent": 27.4,
+            "happiness": 90.2,
+            "environment": 0.99,
+            "migration": 0,
+            "foodShortage": 2.3,
+            "waterShortage": 23.6
+          },
+          {
+            "name": "白沄",
+            "sector": "agriculture",
+            "population": 829.43,
+            "gdp": 35199.25,
+            "gdpPercent": 123.4,
+            "happiness": 90.8,
+            "environment": 0.99,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "澄原",
+            "sector": "agriculture",
+            "population": 913.32,
+            "gdp": 39447.09,
+            "gdpPercent": 139,
+            "happiness": 94.1,
+            "environment": 0.946,
+            "migration": 0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "新铸",
+            "sector": "manufacturing",
+            "population": 814.78,
+            "gdp": 31913.2,
+            "gdpPercent": 40.6,
+            "happiness": 83.4,
+            "environment": 0.808,
+            "migration": 0.1,
+            "foodShortage": 0,
+            "waterShortage": 25.7
+          },
+          {
+            "name": "金屿",
+            "sector": "mining",
+            "population": 849.16,
+            "gdp": 25897.8,
+            "gdpPercent": 1.6,
+            "happiness": 66.4,
+            "environment": 0.631,
+            "migration": -0.1,
+            "foodShortage": 19.2,
+            "waterShortage": 23.1
+          },
+          {
+            "name": "望川",
+            "sector": "technology",
+            "population": 759.19,
+            "gdp": 37460.39,
+            "gdpPercent": 53.7,
+            "happiness": 95,
+            "environment": 0.99,
+            "migration": 0.3,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "砾城",
+            "sector": "mining",
+            "population": 1867.32,
+            "gdp": 76569.36,
+            "gdpPercent": 91.3,
+            "happiness": 85.8,
+            "environment": 0.933,
+            "migration": -0.4,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "林屿",
+            "sector": "services",
+            "population": 1806.48,
+            "gdp": 67325.11,
+            "gdpPercent": 54.5,
+            "happiness": 88.1,
+            "environment": 0.99,
+            "migration": -0.2,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "曙城",
+            "sector": "technology",
+            "population": 1403.88,
+            "gdp": 59988.6,
+            "gdpPercent": 41.2,
+            "happiness": 84.8,
+            "environment": 0.988,
+            "migration": 0,
+            "foodShortage": 0,
+            "waterShortage": 23.4
+          },
+          {
+            "name": "归原",
+            "sector": "agriculture",
+            "population": 1446.32,
+            "gdp": 63759.27,
+            "gdpPercent": 83.5,
+            "happiness": 87.4,
+            "environment": 0.809,
+            "migration": -0.1,
+            "foodShortage": 0,
+            "waterShortage": 0
+          },
+          {
+            "name": "远舟",
+            "sector": "manufacturing",
+            "population": 1016.2,
+            "gdp": 29025.97,
+            "gdpPercent": 18.4,
+            "happiness": 72.7,
+            "environment": 0.596,
+            "migration": -0.1,
+            "foodShortage": 8.9,
+            "waterShortage": 27.9
+          }
+        ]
+      },
+      "eventCount": 22,
+      "recentEvents": [
+        {
+          "id": 21,
+          "year": 2137,
+          "type": "expansion",
+          "title": "交通新廊道投入运营",
+          "description": "归原 附近的通勤和仓储设施扩容。",
+          "cityId": 10,
+          "severity": "positive"
+        },
+        {
+          "id": 20,
+          "year": 2131,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "曙城 提升了工艺效率与本地研发投入。",
+          "cityId": 9,
+          "severity": "positive"
+        },
+        {
+          "id": 19,
+          "year": 2128,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 18,
+          "year": 2113,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "曙城 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 9,
+          "severity": "warning"
+        },
+        {
+          "id": 17,
+          "year": 2112,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "归原 的可用发电能力暂时下降。",
+          "cityId": 10,
+          "severity": "warning"
+        },
+        {
+          "id": 16,
+          "year": 2111,
+          "type": "drought",
+          "title": "流域遭遇旱情",
+          "description": "远舟 的降雨与收成下降，水粮库存开始收紧。",
+          "cityId": 11,
+          "severity": "warning"
+        },
+        {
+          "id": 15,
+          "year": 2110,
+          "type": "breakthrough",
+          "title": "协同制造取得突破",
+          "description": "青岑 提升了工艺效率与本地研发投入。",
+          "cityId": 1,
+          "severity": "positive"
+        },
+        {
+          "id": 14,
+          "year": 2109,
+          "type": "disaster",
+          "title": "山体滑坡中断货运",
+          "description": "林屿—归原 通道运力短时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 13,
+          "year": 2101,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "金屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 5,
+          "severity": "positive"
+        },
+        {
+          "id": 12,
+          "year": 2099,
+          "type": "policy",
+          "title": "区域发布清洁转型协定",
+          "description": "林屿 增加修复投入并加快可再生能源建设。",
+          "cityId": 8,
+          "severity": "positive"
+        },
+        {
+          "id": 11,
+          "year": 2098,
+          "type": "energy",
+          "title": "电网设备意外停运",
+          "description": "青岑 的可用发电能力暂时下降。",
+          "cityId": 1,
+          "severity": "warning"
+        },
+        {
+          "id": 10,
+          "year": 2097,
+          "type": "pollution",
+          "title": "工业河段发生污染",
+          "description": "金屿 的水土修复负担上升，居住吸引力受到影响。",
+          "cityId": 5,
+          "severity": "danger"
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "seedSweep": [
+    {
+      "seed": 1,
+      "gdpPercent": 56,
+      "populationPercent": 27.3,
+      "happiness": 83.4,
+      "environment": 0.969,
+      "issues": []
+    },
+    {
+      "seed": 7,
+      "gdpPercent": 50.4,
+      "populationPercent": 29.4,
+      "happiness": 84.5,
+      "environment": 0.945,
+      "issues": []
+    },
+    {
+      "seed": 42,
+      "gdpPercent": 55.5,
+      "populationPercent": 20.8,
+      "happiness": 79.7,
+      "environment": 0.874,
+      "issues": []
+    },
+    {
+      "seed": 9999,
+      "gdpPercent": 57.5,
+      "populationPercent": 29.2,
+      "happiness": 84.5,
+      "environment": 0.937,
+      "issues": []
+    },
+    {
+      "seed": 1234567,
+      "gdpPercent": 54.1,
+      "populationPercent": 27,
+      "happiness": 83.5,
+      "environment": 0.91,
+      "issues": []
+    }
+  ],
+  "runtimeMs": 592.9,
+  "allCheckedScenariosWithinBounds": true
+}

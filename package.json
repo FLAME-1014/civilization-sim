@@ -1,0 +1,16 @@
+{
+  "name": "qinian-living-world",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A deterministic, systems-driven 12-city civilization simulator.",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.js",
+    "simulate": "node scripts/long-run.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
